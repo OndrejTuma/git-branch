@@ -1,5 +1,4 @@
 // Node.js
-
 (async () => {
     const simpleGit = require('simple-git')
     const inquirer = require('inquirer')
@@ -31,10 +30,13 @@
         const {branchesToDelete, confirm} = await prompt(questions)
 
         if (!confirm) {
+            console.log('Nothing deleted')
             return
         }
 
         await git.deleteLocalBranches(branchesToDelete)
+
+        console.log('Deleted branches: ', branchesToDelete)
     } catch (e) {
         console.error(e)
     }
