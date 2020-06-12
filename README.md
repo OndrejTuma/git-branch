@@ -24,7 +24,15 @@ Enjoy
 
 ## Usage
 
+### Delete braches
+
 1. run `node index.js`
 1. optional parameter is `path to working directory`
 1. select branches to delete
 1. confirm
+
+### Checkout branch
+
+1. run `node checkout.js`
+1. optional parameter is `path to working directory`
+1. select branch to checkout
