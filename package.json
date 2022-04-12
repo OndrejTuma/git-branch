@@ -5,6 +5,6 @@
   "license": "MIT",
   "dependencies": {
     "inquirer": "^7.1.0",
-    "simple-git": "^2.6.0"
+    "simple-git": "^3.5.0"
   }
 }
